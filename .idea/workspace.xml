@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="myapp:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2dedbae8-aa7b-4464-8572-a044a4db4b8a" name="Changes" comment=".gitignore edited.">
+      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/controller/command/AddBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/controller/command/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/controller/command/CommandHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/controller/command/DeleteBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/controller/command/EditBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/controller/command/FrontController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/controller/command/GetBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/controller/command/GetBooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/controller/validator/BookValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/controller/validator/Errors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/controller/validator/RegExp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/controller/validator/Validator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/exception/ApplicationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/model/dao/exception/DaoException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/model/dao/jdbc/BookDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/model/dao/jdbc/DaoConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/model/dao/jdbc/DaoFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/model/dao/jdbc/DbProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/model/dao/jdbc/GenericDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/model/dao/jdbc/PostgresBookDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/model/dao/jdbc/PostgresDaoConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/model/dao/jdbc/PostgresDaoFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/model/dao/jdbc/PostgresReaderDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/model/dao/jdbc/ReaderDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/model/entity/Book$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/model/entity/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/model/entity/Library.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/model/entity/Reader$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/model/entity/Reader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/model/service/BookService$Holder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/model/service/BookService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/model/service/ReaderService$Holder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/model/service/ReaderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/model/service/exception/ServiceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/test/TestDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/utils/AttributesHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/utils/ErrorsMessages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/utils/PagesHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/utils/PathsHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/book.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/book/book.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/book/books.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/books.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/error/pageNotFound.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/controller/command/AddBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/controller/command/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/controller/command/CommandHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/controller/command/DeleteBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/controller/command/EditBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/controller/command/FrontController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/controller/command/GetBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/controller/command/GetBooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/controller/validator/BookValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/controller/validator/Errors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/controller/validator/RegExp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/controller/validator/Validator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/exception/ApplicationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/model/dao/exception/DaoException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/model/dao/jdbc/BookDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/model/dao/jdbc/DaoConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/model/dao/jdbc/DaoFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/model/dao/jdbc/DbProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/model/dao/jdbc/GenericDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/model/dao/jdbc/PostgresBookDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/model/dao/jdbc/PostgresDaoConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/model/dao/jdbc/PostgresDaoFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/model/dao/jdbc/PostgresReaderDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/model/dao/jdbc/ReaderDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/model/entity/Book$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/model/entity/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/model/entity/Library.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/model/entity/Reader$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/model/entity/Reader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/model/service/BookService$Holder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/model/service/BookService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/model/service/ReaderService$Holder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/model/service/ReaderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/model/service/exception/ServiceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/test/TestDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/utils/AttributesHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/utils/ErrorsMessages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/utils/PagesHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/classes/ua/kpi/utils/PathsHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/lib/checker-qual-3.31.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/lib/postgresql-42.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/view/book/book.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/view/book/books.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/view/error/pageNotFound.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/view/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/css/style1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/images/cat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myapp/index.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Exception" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "illusion-for-eternity"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/illusion-for-eternity/lab-2.git",
+    "accountId": "a44005ea-5b0f-43f4-a09c-74ab37eac74b"
+  }
+}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3Bn3RJt1L2412ghQdtYdrark6uX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.TestDB.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Tomcat Server.Tomcat 9.0.116.executor": "Run",
+    "Tomcat Server.header.jsp.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/yuki/Desktop/Java/myapp",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationStatuses">
+      <map>
+        <entry key="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+          <value>
+            <map>
+              <entry key="Tomcat 9.0.116" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.116">
+    <configuration name="TestDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.kpi.test.TestDB" />
+      <module name="myapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.kpi.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.116" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.116" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="myapp:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/myapp_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="f5d34f31-9590-4c38-912c-02e0c8bb9d72" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54757" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="myapp:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TestDB" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.116" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestDB" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.32098.37" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2dedbae8-aa7b-4464-8572-a044a4db4b8a" name="Changes" comment="" />
+      <created>1775110998787</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775110998787</updated>
+      <workItem from="1775111000438" duration="672000" />
+      <workItem from="1775111726096" duration="135000" />
+      <workItem from="1775111875725" duration="13235000" />
+      <workItem from="1775204568416" duration="1894000" />
+      <workItem from="1775206561463" duration="14248000" />
+      <workItem from="1775642585404" duration="6783000" />
+      <workItem from="1775846675058" duration="5183000" />
+      <workItem from="1775852398487" duration="1703000" />
+    </task>
+    <task id="LOCAL-00001" summary="init commit.">
+      <option name="closed" value="true" />
+      <created>1775852217854</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1775852217855</updated>
+    </task>
+    <task id="LOCAL-00002" summary="CommandHolder added.">
+      <option name="closed" value="true" />
+      <created>1775852303650</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1775852303650</updated>
+    </task>
+    <task id="LOCAL-00003" summary="CommandHolder added.">
+      <option name="closed" value="true" />
+      <created>1775853816717</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1775853816717</updated>
+    </task>
+    <task id="LOCAL-00004" summary="CommandHolder added.">
+      <option name="closed" value="true" />
+      <created>1775853932304</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1775853932304</updated>
+    </task>
+    <task id="LOCAL-00005" summary=".gitignore edited.">
+      <option name="closed" value="true" />
+      <created>1775853994037</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1775853994037</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit." />
+    <MESSAGE value="CommandHolder added." />
+    <MESSAGE value=".gitignore edited." />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore edited." />
+  </component>
+</project>
