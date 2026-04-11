@@ -53,12 +53,12 @@ public class PostgresBookDao implements BookDao {
     public List<Book> findByTitle(String title) {
         List<Book> books = new ArrayList<>();
         try (PreparedStatement stmt = connection.prepareStatement(
-                "SELECT * FROM book WHERE title ILIKE ?")) { // ILIKE для PostgreSQL, щоб не чутливо до регістру
-            stmt.setString(1, "%" + title + "%"); // пошук часткової відповідності
+                "SELECT * FROM book WHERE title ILIKE ?")) {
+            stmt.setString(1, "%" + title + "%");
             ResultSet rs = stmt.executeQuery();
             while (rs.next()) {
-                Book book = new Book();         // порожній конструктор
-                book.setId(rs.getInt("id"));    // заповнюємо через сеттери
+                Book book = new Book();
+                book.setId(rs.getInt("id"));
                 book.setTitle(rs.getString("title"));
                 book.setAuthor(rs.getString("author"));
                 books.add(book);

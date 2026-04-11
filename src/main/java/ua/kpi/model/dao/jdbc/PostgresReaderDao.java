@@ -20,7 +20,7 @@ public class PostgresReaderDao implements ReaderDao {
             stmt.setInt(1, id);
             ResultSet rs = stmt.executeQuery();
             if (rs.next()) {
-                Reader reader = new Reader(); // порожній конструктор
+                Reader reader = new Reader();
                 reader.setId(rs.getInt("id"));
                 reader.setFirstName(rs.getString("first_name"));
                 reader.setLastName(rs.getString("last_name"));
@@ -38,7 +38,7 @@ public class PostgresReaderDao implements ReaderDao {
         try (Statement stmt = connection.createStatement()) {
             ResultSet rs = stmt.executeQuery("SELECT * FROM reader");
             while (rs.next()) {
-                Reader reader = new Reader(); // порожній конструктор
+                Reader reader = new Reader();
                 reader.setId(rs.getInt("id"));
                 reader.setFirstName(rs.getString("first_name"));
                 reader.setLastName(rs.getString("last_name"));
